@@ -251,6 +251,18 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
+#project_wrap {
+  text-align: center;
+}
+
+#i1 {
+    margin-right: 50px;
+}
+
+#i2 {
+ margin-left: 50px;   
+}
+
 .outer {
   width: 100%;
 }
@@ -440,3 +452,37 @@ Buttons
   top: 5px;
   left: 5px;
 }
+
+/*******************************************************************************
+TEMPORARY OVERLAY
+*******************************************************************************/
+
+/* overlay styles, all needed */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+.modal {
+    width: 400px;
+    height: 200px;
+    line-height: 200px;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -12%;
+    background-color: lightgray;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
+
+
+
+
