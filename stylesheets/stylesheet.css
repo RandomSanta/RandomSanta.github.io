@@ -310,6 +310,43 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
+#project_titlesub {
+  margin: 0;
+  color: #111;
+  font-size: 80px;
+  font-weight: 700;
+  text-shadow: lightgray 0px 0px 10px;
+  padding: 50px 50px 50px 50px;
+}
+
+#project_eachproject {
+    position:relative;
+    top: 20px;
+    height: 400px;
+    width: 40%;
+    padding-bottom: 50px;
+}
+
+#project_eachwrap1
+{
+    background: #D9D8DF;
+}
+
+#project_eachwrap2
+{
+    background: #FFF7F6;
+}
+
+#project_eachwrap3
+{
+    background: #DFE7E0;
+}
+
+#project_eachwrap4
+{
+    background: #FFFDF6;
+}
+
 #project_tagline {
   color: #fff;
   font-size: 24px;
