@@ -323,6 +323,11 @@ Full-Width Styles
     padding-bottom: 50px;
 }
 
+#project_eachwrap0
+{
+    background: #da8cbc;
+}
+
 #project_eachwrap1
 {
     background: #D9D8DF;
@@ -341,6 +346,7 @@ Full-Width Styles
 #project_eachwrap4
 {
     background: #FFFDF6;
+    box-shadow: 1px 1px 50px 10px #888888;
 }
 
 #project_tagline {
@@ -527,4 +533,14 @@ IMG.displayed {
     margin-right: auto;
 }
 
+IMG.cropped {
+    top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
