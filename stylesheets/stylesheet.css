@@ -286,6 +286,7 @@ Full-Width Styles
 }
 
 #header_wrap {
+  padding-top: 40px;
   background: #475c6c;
   background: -moz-linear-gradient(bottom, #475c6c, #8a8583);
   background: -webkit-linear-gradient(bottom, #475c6c, #8a8583);
